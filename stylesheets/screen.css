@@ -1,0 +1,53 @@
+body {
+  font-family: arial, sans-serif;
+  line-height: 1.1em;
+}
+
+.scene {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.page-footer {
+  width: 100%;
+  bottom: 0px;
+  background-color: rgba(200,200,200,0.8);
+  position: absolute;
+}
+
+.page-footer p {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.background {
+  background-image: url(background.jpg);
+}
+
+.foreground {
+  background-image: url(foreground.png);
+}
+
+.rainbow {
+  opacity: 0;
+  background-image: url(rainbow.svg);
+}
+
+.double-rainbow {
+  opacity: 0;
+  background-image: url(double-rainbow.svg);
+}
+
+.rainbow.shine {
+  opacity: 0.6;
+  transition-duration: 10s;
+}
+
+.double-rainbow.shine {
+  opacity: 0.2;
+  transition-duration: 10s;
+}
